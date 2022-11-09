@@ -45,4 +45,4 @@ do
     entete_serveur=$(curl -I $line)
     lineno=$((lineno+1));
 done < $fichier_urls
-bash traitement_url_base.sh url_test.txt tableau.HTML
+bash script_url_base.sh URL_français.txt tableau.HTML
