@@ -14,7 +14,20 @@ fichier_tableau=$2 # le fichier HTML en sortie
 
 # !!!!!!
 # ici on doit vérifier que nos deux paramètres existent, sinon on ferme!
-# !!!!!!
+
+if [ $# -ne 2] # Si le nb d'argument est différent de 2 alors : (avec ne = not equal)
+then
+    echo "Ce programme demande deux fichiers en argument."
+    exit
+fi
+
+if [ -f $1 ] # Si l'argument est un fichier qui existe alors :
+    then
+        echo "Fichier OK"
+    else
+        echo "Ceci n'est pas un fichier"
+        exit
+fi
 
 # modifier la ligne suivante pour créer effectivement du HTML
 echo "Je dois devenir du code HTML à partir de la question 3" > $fichier_tableau
@@ -23,6 +36,13 @@ lineno=1;
 
 while read -r line;
 do
-	echo "ligne $lineno: $line";
-	lineno=$((lineno+1));
+
 done < $fichier_urls
+
+while read -r line;
+do
+    echo "ligne $lineno: $line";
+    entete_serveur=$(curl -I $line)
+    lineno=$((lineno+1));
+done < $fichier_urls
+bash traitement_url_base.sh url_test.txt tableau.HTML
