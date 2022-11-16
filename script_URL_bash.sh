@@ -42,7 +42,8 @@ done < $fichier_urls
 while read -r line;
 do
     echo "ligne $lineno: $line";
-    entete_serveur=$(curl -I $line)
+    entete_serveur=$(curl -I -s $line) #curl est en silencieux avec -s
+    echo "entete_serveur"
     lineno=$((lineno+1));
 done < $fichier_urls
-bash script_URL_bash.sh URL_français.txt tableau.HTML
+bash script_URL_bash.sh url_all_fremd.txt tableau.HTML
