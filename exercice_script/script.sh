@@ -9,3 +9,4 @@ echo "pour l'année 2018" >> sortie.txt
 grep "Location" 2018*.ann | wc -l >> sortie.txt
 
 
+
