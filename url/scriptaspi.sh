@@ -4,7 +4,7 @@
 # VOUS DEVEZ MODIFIER CE BLOC DE COMMENTAIRES.
 # Ici, on décrit le comportement du programme.
 # Indiquez, entre autres, comment on lance le programme et quels sont
-if [ $# -ne 2 ]
+if [ $# -ne 3 ]
 then
 	echo " ce programme demande deux arguments"
 	exit
@@ -22,7 +22,7 @@ fichier_tableau=$2 # le fichier HTML en sortie
 
 # modifier la ligne suivante pour créer effectivement du HTML
 
-palabra="étranger" # on peut faire mieux ez
+motif=$3 # on peut faire mieux ez
 echo $fichier_urls;
 basename=$(basename -s .txt $fichier_urls)
    
@@ -30,7 +30,7 @@ echo "<html><body>" > $fichier_tableau
 echo "<h2>Tableau $basename :</h2>" >> $fichier_tableau
 echo "<br/>" >> $fichier_tableau
 echo "<table>" >> $fichier_tableau
-echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th></tr>" >> $fichier_tableau
+echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th><th>N°Occ</th></tr>" >> $fichier_tableau
 
 lineno=1;
                 while read -r line;
@@ -38,6 +38,7 @@ do
         URL=$line
         CODEHTTP=$(curl -I -s $line | grep -e "^HTTP/" | grep -Eo "[0-9]{3}" | head -n1)	
         ENC=$(curl -I -s $line | grep -Po "charset=[\w-]+"| cut -d= -f2)
+    
 		aspiration=$(curl $URL)
 	echo "$aspiration" > "aspirations/$basename-$lineno.html"
 
@@ -66,8 +67,9 @@ do
 		dump=""
 		ENC=""
 	fi
+	count=$(echo $dump | grep -o -i -P "$motif"| wc -l)
     
-    echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td>$URL</td><td>$ENC</td></tr>" >> $fichier_tableau
+    echo "<tr><td>$lineno</td><td>$CODEHTTP</td><td>$URL</td><td>$ENC</td><td>$count</td></tr>" >> $fichier_tableau
 	lineno=$((lineno+1));
                 
        done < $fichier_urls               
