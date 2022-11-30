@@ -8,3 +8,4 @@ création de tags, annulation de commit erroné
 exercices sur les url (exercice 1, 2, 3)
 
 deuxième feuille de TD sur les url
+néanmoins problème dans le tableau html: quand on clique sur les concordances cela ne débouche sur rien.
