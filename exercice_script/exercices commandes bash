@@ -106,3 +106,4 @@ $# wq pour voir ce que ça donne
 test pour fichier non vide
 if [-f $1]
 -r ignore les fichiers dont l'échappement n'est pas encodé.
+
