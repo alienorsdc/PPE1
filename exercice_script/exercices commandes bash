@@ -4,8 +4,6 @@ pour retrouver ssh
 $ ls -al | grep ssh
 pour retrouver ssh
 
-id_ed25519  id_ed25519.pub
-
 Pur commit et push dans le git
 git pull 
 on fait des modifications
