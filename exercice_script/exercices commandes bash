@@ -105,3 +105,19 @@ test pour fichier non vide
 if [-f $1]
 -r ignore les fichiers dont l'échappement n'est pas encodé.
 
+
+sudo apt install lynx, terminal web
+
+option dump prend le premier argument et permet de l'afficher sur l'écran
+
+lynx -dump -nolist "https://fr.wikipedia.org/wiki/Robot"
+toute la liste des occurences de robot
+redirection dans fichiers
+
+option -i pour infos sur interaction avec le serveur.
+content-type: text/html
+meta content: text html UTF-8
+commande -L pour suivre les redirections.
+-I affiche les en-têtes.
+-IL
+
