@@ -14,7 +14,7 @@ En parallèle poursuite de la réflexion pour la rédaction sur le site.
 6) commentaire du script itrameur sur le git du projet de groupe.
 
 7) Je teste les aspirations pour le tableau HTML. Je remarque un problème lorsque je tape "Ausländer" et "Fremder". Il s'agit d'une mauvaise expression régulière.
-De plus les occurences et les contextes ne semblent pas corrects.
+De plus les occurences et les contextes ne semblent pas corrects. Le traitement des url s'arrête à la 38e. Si cela ne s'effectue pas correctement on peut supposer qu'il y a des difficulter à accéder à certains sites.
 
 8) étape de la conception du site et des onglets. ( je reprends l'index du groupe afin de pouvoir envisager les différentes possibilités de présentation du projet). 
 
