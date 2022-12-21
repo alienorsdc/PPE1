@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Programmation et Projet encadré</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="script.js" defer></script>
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+</head>
+<body>
+    <div class="section">
+        <div class="tabs is-centred">
+    <ul class="tabs">
+        <li data-tab-target="#home" class="active tab">Home</li>
+        <li data-tab-target="#tableaux" class="tab">Les tableaux</li>
+        <li data-tab-target="#script" class="tab">Scripts</li>
+        <li data-tab-target="#itrameur" class="tab">Itrameur</li>
+        <li data-tab-target="#about" class="tab">À propos de nous</li>
+        
+      </ul>
+    </div>
+</div>
+      <div class="tab-content">
+        <div id="home" data-tab-content class="active">
+          <p><div class="columns">
+            <div class="column">
+             
+            </div>
+            <div class="column is-two-thirds">
+        
+        <section class="hero is-primary">
+            <div class="hero-body">
+                <div class="container">
+                <h1 class="title">
+                Programmation et Projet Encadré 
+                </h1>
+                <h2 class="subtitle">
+                Étranger, Auslander, stranger
+                </h2>
+                
+                </div>
+                </div>
+                </section>
+            
+                 
+                 <div class="box">
+                  <img src="images/fox.jpg" width="35%"/>  
+                 <h2 class="title">Un projet, une idée</h2>
+                 <p>Au début de notre année de M1, il a été annoncé que nous allions réaliser un projet d'analyse textuelle de bout en bout : de la création du corpus
+                  à son analyse en passant par la réalisation d'un site (celui-ci !) où nous allions présenter notre démarche et nos résultats. 
+                  <br>Le corpus à constituer était un corpus multilingue crée à partir de pages récupérées sur le web en s'appuyant sur une thématique autour des mots de notre choix. </p>
+                  <p>Notre projet porte sur le mot <i>Étranger</i>.
+                  <br>
+                  <br>L'idée de ce projet est né après notre lecture du très intéressant article de Ryan Bloom sur la difficulté de traduire le célèbre incipit de
+                <i>L'Étranger</i> de Camus. Au début de l'article, il évoque brièvement l'histoire de la traduction du titre du livre. <i>The Outsider</i>, 
+                <i>The Stranger</i>...</p> Mais comment rendre compte de la signification du mot français dans la langue de Shakespeare ?
+                <br> De là est né notre sujet : <b>le mot français <i>Étranger</i> et ses équivalents traductionnels dans d'autres langues.</b>
+                  <br> 
+                  <br> En effet le français est caractérisé par un nombre limité de substantifs. La langue française a fait l'objet d'un "purisme linguistique", surtout
+                   au 17e siècle quand l'Accadémie française, crée en 1635 par Richelieu, se donne pour mission de d'assurer la clarté des règles de langue et l'entrée
+                   des mots dans le dictionnaire. Il en a résulté un appauvrissement du vocabulaire. En revanche ni la langue anglaise, ni la langue allemande n'ont fait 
+                   l'objet d'un tel purisme. C'est pourquoi il convient de revenir sur l'étymologie des différents mots de notre corpus afin d'en saisir <b> les distinctions
+                   sémantiques.</b>
+
+                                   
+
+        </div>
+          </div>
+                <div class="column">
+          </div>
+          </div></p>
+        </div>
+        <div id="tableaux" data-tab-content>
+            <p><div class="columns">
+                <div class="column">
+                 
+                </div>
+                <div class="column is-two-thirds">
+            
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                    <h1 class="title">
+                    Les tableaux
+                    </h1>
+                    <h2 class="subtitle">
+                    test
+                    </h2>
+                    
+                    </div>
+                    </div>
+                    </section>
+                
+                     
+                     <div class="box">
+                      <img src="images/fox.jpg" width="35%"/>  
+                     <h2 class="title">Tout plein de tableaux</h2>
+
+                     <iframe id="" title="tableau1" style=" height: 500px; overflow:hidden;" width=100%
+                     src="./Execution_Script/tableauFR.html"></iframe>
+
+            </div>
+              </div>
+                    <div class="column">
+              </div>
+              </div></p>
+            </div> 
+              <div id="about" data-tab-content>
+                <p><div class="columns">
+                  <div class="column">
+                   
+                  </div>
+                  <div class="column is-two-thirds">
+              
+              <section class="hero is-primary">
+                  <div class="hero-body">
+                      <div class="container">
+                      <h1 class="title">
+                      A propos de nous
+                      </h1>
+                      <h2 class="subtitle">
+                      test
+                      </h2>
+                      
+                      </div>
+                      </div>
+                      </section>
+                  
+                       
+                       <div class="box">
+                      <img src="images/fox.jpg" width="35%"/>  
+                       <h2 class="title">Qui sommes nous ?</h2>
+                       <p>Nous sommes trois élèves pleines de motivation et de passion pour Bash et autres langages de programmation (<3) en première année de master TAL à la Sorbonne Nouvelle. Ce site constitue la finalité de notre PPE réalisé durant le premier semestre. <br>Voici l'équipe :
+                         <br><b>Natacha :</b> 
+                         <br><u>Point fort :</u> Adore Bash. 
+                         <br><u>Point faible :</u> Adore Bash.
+                         <br><b>Aliénor :</b>
+                         <br><u>Point fort :</u> Sait rédiger des phrases en excellent français.
+                         <br><u>Point faible :</u> Trouve que Bash n'a pas un vocabulaire assez étendu pour capter toutes les nuances de la langue.
+                         <br><b>Juliette :</b> 
+                         <br><u>Point fort :</u> A des notions en design.
+                         <br><u>Point faible :</u> Préfère Python.</p>
+
+              </div>
+                </div>
+                      <div class="column">
+                </div>
+                </div></p>
+              </div>
+              <div id="script" data-tab-content>
+                <p><div class="columns">
+                  <div class="column">
+                   
+                  </div>
+                  <div class="column is-two-thirds">
+              
+              <section class="hero is-primary">
+                  <div class="hero-body">
+                      <div class="container">
+                      <h1 class="title">
+                      Scripts
+                      </h1>
+                      <h2 class="subtitle">
+                      test
+                      </h2>
+                      
+                      </div>
+                      </div>
+                      </section>
+                  
+                       
+                       <div class="box">
+                        <img src="images/fox2.jpg" width="35%"/>  
+                       <h2 class="title">L'avancée du script</h2>
+                       <p> El famoso script</p>
+
+              </div>
+                </div>
+                      <div class="column">
+                </div>
+                </div></p>
+              </div>
+<div id="itrameur" data-tab-content>
+            <p><div class="columns">
+                <div class="column">
+                 
+                </div>
+                <div class="column is-two-thirds">
+            
+            <section class="hero is-primary">
+                <div class="hero-body">
+                    <div class="container">
+                    <h1 class="title">
+                    Analyse Itrameur
+                    </h1>
+                    <h2 class="subtitle">
+                    test
+                    </h2>
+                    
+                    </div>
+                    </div>
+                    </section>
+                
+                     
+                     <div class="box">
+                      <img src="images/fox.jpg" width="35%"/>  
+                     <h2 class="title">Analyse Itrameur</h2>
+                     <p>EN COURS</p>
+                     <p>EN COURS </p>
+            </div>
+              </div>
+                    <div class="column">
+              </div>
+              </div></p>
+            </div> 
+        </div>
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
