@@ -1,5 +1,5 @@
 #journal-de-bord.md
-Dans le projet de group, je m'occupe de la partie sur l'allemand (extraction des url pour l'allemand, nuages de mot allemand et analyse iTrameur allemand)
+Dans le projet de group, je m'occupe de la partie sur l'allemand avec les mots "Ausl (extraction des url pour l'allemand, nuages de mot allemand et analyse iTrameur allemand)
 
 1) exercices sur la mise en place du git avec la synchronisation des dépôts.
 
@@ -19,7 +19,7 @@ De plus les occurences et les contextes ne semblent pas corrects. Le traitement 
 
 8) étape de la conception du site et des onglets. ( je reprends l'index du groupe afin de pouvoir réfléchir sur la problématique). 
 
-9) installation de wordcloud. Je fais une liste de mots vides à exclure du nuage du mot.
+9) installation de wordcloud. Je fais une liste de mots vides à exclure des nuages de mots "Aulsänder" et "fremd". 
 
 10) concaténation des dumps texte pour itrameur.
 
