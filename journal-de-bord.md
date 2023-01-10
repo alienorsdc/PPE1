@@ -1,4 +1,5 @@
 #journal-de-bord.md
+Dans le projet de group, je m'occupe de la partie sur l'allemand (exctraction des url pour l'allemand, nuages de mot allemand et analyse iTrameur allemand)
 
 1) exercices sur la mise en place du git avec la synchronisation des dépôts.
 
@@ -21,3 +22,7 @@ De plus les occurences et les contextes ne semblent pas corrects. Le traitement 
 9) installation de wordcloud. Je fais une liste de mots vides à exclure du nuage du mot.
 
 10) concaténation des dumps texte pour itrameur.
+
+11) analyse iTrameur et nuages de mots. 
+
+12) rédaction de l'introduction home et de la conclusion. 
