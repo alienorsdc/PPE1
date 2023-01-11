@@ -1,5 +1,5 @@
 #journal-de-bord.md
-Dans le projet de group, je m'occupe de la partie sur l'allemand avec les mots "Ausl (extraction des url pour l'allemand, nuages de mot allemand et analyse iTrameur allemand)
+Dans le projet de group, je m'occupe de la partie sur l'allemand avec les mots "Ausländer" et "fremd" (extraction des url pour l'allemand, nuages de mot allemand et analyse iTrameur allemand)
 
 1) exercices sur la mise en place du git avec la synchronisation des dépôts.
 
