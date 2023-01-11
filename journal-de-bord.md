@@ -14,7 +14,7 @@ En parallèle poursuite de la réflexion pour la rédaction sur le site.
 
 6) commentaire du script itrameursur le git du projet de groupe.
 
-7) Je teste les aspirations pour le tableau HTML. Je remarque un problème lorsque je tape "Ausländer" et "Fremder". Il s'agit d'une mauvaise expression régulière. Les finales sont les suivantes: [Aa]sländer/w+ et [Ff]remd/w+ 
+7) Je teste les aspirations pour le tableau HTML. Je remarque un problème lorsque je tape "Ausländer" et "Fremder". Il s'agit d'une mauvaise expression régulière. Les finales sont les suivantes: [Aa]sländer/w+ et [Ff]remd/w+ car elles englobent tous les mots composés. 
 De plus les occurences et les contextes ne semblent pas corrects. Le traitement des url s'arrête à la 38e. Si cela ne s'effectue pas correctement on peut supposer qu'il y a des difficultés à accéder à certains sites. Je supprime donc les url défectueuses. 
 
 8) étape de la conception du site et des onglets. ( je reprends l'index du groupe afin de pouvoir réfléchir sur la problématique). 
