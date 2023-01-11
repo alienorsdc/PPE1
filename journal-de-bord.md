@@ -25,5 +25,6 @@ De plus les occurences et les contextes ne semblent pas corrects. Le traitement 
 
 11) analyse iTrameur et nuages de mots. 
 
-12) rédaction de l'introduction home et de la conclusion. 
-Relecture du site. 
+12) rédaction de l'introduction home et de la conclusion.  
+
+13) relecture du site. 
